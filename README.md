@@ -14,7 +14,6 @@ Gustavo Josue Robles Martinez Notes:
         - ( Valid User Client ) `curl http://localhost:3001/contracts/1 -H "profile_id: 1" | json_pp`
         - ( Valid User Contractor ) `curl http://localhost:3001/contracts/1 -H "profile_id: 5" | json_pp`
         - ( Invalid User Client ) `curl http://localhost:3001/contracts/1 -H "profile_id: 2" -I`
-        - ( Invalid User Client ) `curl http://localhost:3001/contracts/1 -H "profile_id: 2" -I`
     - /jobs/unpaid
         - ( Valid User Client ) `curl http://localhost:3001/jobs/unpaid -H "profile_id: 1" | json_pp`
         - ( Valid User Contractor ) `curl http://localhost:3001/jobs/unpaid -H "profile_id: 6" | json_pp`
